@@ -44,6 +44,10 @@ public class Main {
 		}
 		
 		Arrays.sort(array);
+
+		if(array[array.length - 1] <= 0) {
+			return 1;
+		}
 		
 		int firstPositiveIndex = -1;
 		
