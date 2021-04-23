@@ -49,7 +49,7 @@ values ('9 - 1' , 3 , 9 , 6 , 4 , 8 , 7);
 insert into ClassRoom
 values ('10 - 1' , 1 , 5 , 6 , 4 , 8 , 7);
 insert into ClassRoom
-values ('9 - 2' , 3 , 5 , 6 , 4 , 8 , 7);*/
+values ('9 - 2' , 3 , 5 , 6 , 4 , 8 , 7);
 
 insert into Pupil
 values ('Giorgi' , 'Gelashvili' , 'Male' , '8 - 1');
