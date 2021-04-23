@@ -44,7 +44,7 @@ public class Main {
 		}
 		
 		Arrays.sort(array);
-
+		
 		if(array[array.length - 1] <= 0) {
 			return 1;
 		}
@@ -59,12 +59,14 @@ public class Main {
 		}
 		if(array[firstPositiveIndex] != 1) {
 			return 1;
-		}else {
+		}else if(firstPositiveIndex != array.length - 1){
 			for(int i = firstPositiveIndex + 1 ; i < array.length ; i++) {
 				if(array[i] - array[i - 1] >= 2) {
 					return array[i - 1] + 1;
 				}
 			}
+		}else {
+			return 2;
 		}
 		return array[array.length - 1] + 1;
 	}

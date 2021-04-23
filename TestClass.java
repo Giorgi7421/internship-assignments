@@ -46,6 +46,12 @@ public class TestClass extends TestCase{
 		
 		int[] arr7 = {};
 		assertEquals(1 , Main.notContains(arr7));
+
+		int[] arr8 = {-2,-6-9};
+		assertEquals(1 , Main.notContains(arr8));
+		
+		int[] arr9 = {-2,-6-9,1};
+		assertEquals(2 , Main.notContains(arr9));
 	}
 	
 	public void testIsProperly() {
